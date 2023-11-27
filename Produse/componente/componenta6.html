@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page | Placa de baza ASUS PRIME X670-P</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="../../Home.html">
+                        <img src="../../img/output-onlinepngtools.png" width="200px">
+                    </a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="../../Home.html">Acasa</a></li>
+                        <li><a href="../../Products.html">Produse</a></li>
+                        <li><a href="">Despre noi</a></li>
+                        <li><a href="">Contacteaza-ne</a></li>
+                        <li><a href="">Contul meu</a></li>
+                    </ul>
+                </nav>
+                <img src="../../RedStore_Img/images/cart.png" width="30px" height="30px" >
+                <img src="../../RedStore_Img/images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-2">
+            <h1 class="title">Placa de baza ASUS PRIME X670-P</h1>
+       
+        <div class="small-container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="../../img/placaDeBaza.jpg">
+                </div>
+                <div class="col-6">
+                    <h2>Pret: 1.259,99 RON</h2>
+                    <label for="quantity">Cantitate:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1">
+                    <button onclick="addToCart()">Adauga in cos</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="title">Specificatii tehnice:</h2>
+                    <p>Denumire: Placa de baza ASUS PRIME X670-P</p>
+                    <p>Cod producator: PRIME X670-P</p>
+                    <p>Garantie : 24 luni</p>
+                    <p>-----------------------------------------------------------------------------------------------------------</p>
+                    <h3>Caracteristici:</h3>
+                    <p>Recomandat pentru Gaming: Da</p>
+                    <p>Format: ATX</p>
+                    <p>Soclu procesor: AM5</p>
+                    <P>Producator chipset: AMD</P>
+                    <p>Model chipset: X670</p>
+                    <p>Procesoare suportate: AMD AM5 Socket Ryzen 7000 Series</p>
+                    <p>Interfata grafica: PCI Express x16 4.0</p>
+                    <p>Numar SATA-III: 6</p>
+                    <p>M.2: 3</p>
+                    <p>-----------------------------------------------------------------------------------------------------------</p>
+                    <h3>Memorii suportate:</h3>
+                    <p>Tip memorie: DDR5</p>
+                    <p>Memorie maxima: 128 GB</p>
+                    <p>Numar sloturi: 4</p>
+                    <p>Frecvente suportate: 6400+(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600(OC)/ 5400(OC)/ 5200/ 5000/ 4800 MHz</p>
+                    <p>-----------------------------------------------------------------------------------------------------------</p>
+                    <h3>Sloturi:</h3>
+                    <p>PCI Express 4.0 x16: 3 (x16 / x4 / x4)</p>
+                    <p>PCI Express x1: 1</p>
+                    <p>-----------------------------------------------------------------------------------------------------------</p>
+                    <h3>Conectori Back Panel</h3>
+                    <p>PS/2 Mouse-Tastatura: 1</p>
+                    <p>HDMI: 1</p>
+                    <p>Display Port: 1</p>
+                    <p>USB 2.0: 2</p>
+                    <p>USB 3.2 Gen1 tip A: 4</p>
+                    <p>USB 3.2 Gen2 tip C: 1</p>
+                    <p>USB 3.2 Gen2 tip A: 3</p>
+                    <p>Suport audio: 7.1</p>
+                    <p>BIOS Flashback: Da</p>
+                    <p>-----------------------------------------------------------------------------------------------------------</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="partner">
+        <h2 class="title">Parteneri oficiali</h2>
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="../../img/intel.png" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/amd.png" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/lenovo.png" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/nvidia.jpg" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/logitech.png" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/Samsung_Logo.svg.png" >
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../../main.js"></script>
+
+    <script>
+        function addToCart() {
+            // Add your logic to add the product to the shopping cart
+            alert("Product added to the cart!");
+        }
+    </script>
+</body>
+</html>

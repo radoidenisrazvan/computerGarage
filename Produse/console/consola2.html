@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page | Consola Sony PlayStation 5 (PS5) Disc Edition 825GB White, C-Chassis</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="../../Home.html">
+                        <img src="../../img/output-onlinepngtools.png" width="200px">
+                    </a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="../../Home.html">Acasa</a></li>
+                        <li><a href="../../Products.html">Produse</a></li>
+                        <li><a href="">Despre noi</a></li>
+                        <li><a href="">Contacteaza-ne</a></li>
+                        <li><a href="">Contul meu</a></li>
+                    </ul>
+                </nav>
+                <img src="../../RedStore_Img/images/cart.png" width="30px" height="30px" >
+                <img src="../../RedStore_Img/images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-2">
+            <h1 class="title">Consola Sony PlayStation 5 (PS5) Disc Edition 825GB White, C-Chassis</h1>
+       
+        <div class="small-container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="../../console/sony-playstation-5-disc-edition-825gb-wh-0fc1dd2b5e8a175d369b02ba38d090aa.jpg">
+                </div>
+                <div class="col-6">
+                    <h2>Pret: 2.299,99 RON</h2>
+                    <label for="quantity">Cantitate:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1">
+                    <button onclick="addToCart()">Adauga in cos</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="title">Specificatii tehnice:</h2>
+                    <p>Denumire: Consola Sony PlayStation 5 (PS5) Disc Edition 825GB White, C-Chassis</p>
+                    <p>Cod producator: RRT-00010</p>
+                    <p>Garantie : 24 luni</p>
+                    <p>-----------------------------------------------------------------------------------------------------------</p>
+                    <h3>General:</h3>
+                    <p>Platforma: PlayStation 5</p>
+                    <p>Procesor: CPU: AMD Ryzen Zen 2, 8 core</p>
+                    <p>Placa grafica: GPU: Custom AMD Radeon RDNA 2 </p>
+                    <p>SSD: 825 GB</p>
+                    <p>Memorie: 16 GB GDDR6</p>
+                    <p>Comunicatie: Wi-Fi: 802.11a/b/g/n/ac, Bluetooth: 5.1, Ethernet: 10/100/1000 Mbps</p>
+                    <p>Dimensiuni: 390 x 260 x 104 mm</p>
+                    <p>Greutate: 3.95 kg</p>
+                    <p>Accesorii incluse: Consola PlayStation 5, Cablu USB, Wireless controller, Cablu alimentare, Cablu HDMI</p>
+                    <p>-----------------------------------------------------------------------------------------------------------</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="partner">
+        <h2 class="title">Parteneri oficiali</h2>
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="../../img/intel.png" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/amd.png" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/lenovo.png" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/nvidia.jpg" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/logitech.png" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/Samsung_Logo.svg.png" >
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../../main.js"></script>
+
+    <script>
+        function addToCart() {
+            // Add your logic to add the product to the shopping cart
+            alert("Product added to the cart!");
+        }
+    </script>
+</body>
+</html>

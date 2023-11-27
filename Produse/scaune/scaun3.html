@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page | Scaun gaming Arozzi Vernazza Soft Fabric Blue</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="../../Home.html">
+                        <img src="../../img/output-onlinepngtools.png" width="200px">
+                    </a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="../../Home.html">Acasa</a></li>
+                        <li><a href="../../Products.html">Produse</a></li>
+                        <li><a href="">Despre noi</a></li>
+                        <li><a href="">Contacteaza-ne</a></li>
+                        <li><a href="">Contul meu</a></li>
+                    </ul>
+                </nav>
+                <img src="../../RedStore_Img/images/cart.png" width="30px" height="30px" >
+                <img src="../../RedStore_Img/images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-2">
+            <h1 class="title">Scaun gaming Arozzi Vernazza Soft Fabric Blue</h1>
+       
+        <div class="small-container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="../../img/scaun.jpg">
+                </div>
+                <div class="col-6">
+                    <h2>Pret: 1.059,69 RON</h2>
+                    <label for="quantity">Cantitate:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1">
+                    <button onclick="addToCart()">Adauga in cos</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h3>Prezentare produs:</h3>
+                    <p>• scaun ergonomic pentru gaming</p>
+                    <p>• mulaj din spuma de calitate inalta</p>
+                    <p>• posibilitate de reglare a inaltimii</p>
+                    <p>• rotire 360 grade si inclinare</p>
+                    <p>• cotiere fixe prevazute cu pernite</p>
+                    <p>-----------------------------------------------------------------------------------------------------------</p>
+                    <h2 class="title">Specificatii tehnice:</h2>
+                    <p>Denumire: Scaun gaming Arozzi Vernazza Soft Fabric Blue</p>
+                    <p>Cod producator: VERNAZZA-SFB-BL</p>
+                    <p>Garantie : 24 luni</p>
+                    <p>-----------------------------------------------------------------------------------------------------------</p>
+                    <h3>Detalii:</h3>
+                    <p>Serie: Vernazza</p>
+                    <p>Material: Textil</p>
+                    <p>-----------------------------------------------------------------------------------------------------------</p>
+                    <h3>Caracteristici:</h3>
+                    <p>Reglabil: Da</p>
+                    <p>Greutate admisa: 145 kg max</p>
+                    <p>Inaltime scaun reglabil: 48 - 57 cm</p>
+                    <p>Inaltime scaun max: 143 cm</p>
+                    <p>Latime scaun: 31 cm</p>
+                    <p>Adancime scaun: 52 cm</p>
+                    <p>Inaltime spatar: 86 cm</p>
+                    <p>Culoare: Gri</p>
+                    <p>Pernita cap: Detasabila</p>
+                    <p>Pernita lombara: Detasabila</p>
+                    <p>-----------------------------------------------------------------------------------------------------------</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="partner">
+        <h2 class="title">Parteneri oficiali</h2>
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="../../img/intel.png" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/amd.png" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/lenovo.png" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/nvidia.jpg" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/logitech.png" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/Samsung_Logo.svg.png" >
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../../main.js"></script>
+
+    <script>
+        function addToCart() {
+            // Add your logic to add the product to the shopping cart
+            alert("Product added to the cart!");
+        }
+    </script>
+</body>
+</html>

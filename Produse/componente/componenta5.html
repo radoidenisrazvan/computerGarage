@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page | Carcasa AQIRYS Antares ARGB</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="../../Home.html">
+                        <img src="../../img/output-onlinepngtools.png" width="200px">
+                    </a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="../../Home.html">Acasa</a></li>
+                        <li><a href="../../Products.html">Produse</a></li>
+                        <li><a href="">Despre noi</a></li>
+                        <li><a href="">Contacteaza-ne</a></li>
+                        <li><a href="">Contul meu</a></li>
+                    </ul>
+                </nav>
+                <img src="../../RedStore_Img/images/cart.png" width="30px" height="30px" >
+                <img src="../../RedStore_Img/images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-2">
+            <h1 class="title">Carcasa AQIRYS Antares ARGB</h1>
+       
+        <div class="small-container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="../../img/carcasa.jpg">
+                </div>
+                <div class="col-6">
+                    <h2>Pret: 209,99 RON</h2>
+                    <label for="quantity">Cantitate:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1">
+                    <button onclick="addToCart()">Adauga in cos</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="title">Specificatii tehnice:</h2>
+                    <p>Denumire: Carcasa AQIRYS Antares ARGB</p>
+                    <p>Cod producator: AQRYS_ANTARES</p>
+                    <p>Garantie : 24 luni</p>
+                    <p>-----------------------------------------------------------------------------------------------------------</p>
+                    <h3>Caracteristici:</h3>
+                    <p>Recomandat pentru Gaming: Da</p>
+                    <p>Tip carcasa: Middle Tower</p>
+                    <p>Pozitionare sursa: Jos</p>
+                    <p>Culoare: Negru</p>
+                    <p>Dimensiuni: 450 x 410 x 205 mm</p>
+                    <p>Panou lateral transparent: Da, tempered glass</p>
+                    <p>Inaltime cooler CPU: 160 mm (max)</p>
+                    <p>Lungime video GPU: 360 mm (max)</p>
+                    <p>Iluminare LED: ARGB</p>
+                    <p>-----------------------------------------------------------------------------------------------------------</p>
+                    <h3>Conectori:</h3>
+                    <p>USB 2.0: 2</p>
+                    <p>USB 3.0: 1</p>
+                    <p>3.5 mm jack: 2</p>
+                    <p>-----------------------------------------------------------------------------------------------------------</p>
+                    <h3>Ventilatoare incluse:</h3>
+                    <p>Fata: 3x 120 mm LED RGB</p>
+                    <p>Spate: 1x 120 mm LED RGB</p>
+                    <p>-----------------------------------------------------------------------------------------------------------</p>
+                    <h3>Ventilatoare optionale:</h3>
+                    <p>Tavan: 2x 120 mm sau 2x 140 mm</p>
+                    <p>-----------------------------------------------------------------------------------------------------------</p>
+                    
+
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="partner">
+        <h2 class="title">Parteneri oficiali</h2>
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="../../img/intel.png" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/amd.png" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/lenovo.png" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/nvidia.jpg" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/logitech.png" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/Samsung_Logo.svg.png" >
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../../main.js"></script>
+
+    <script>
+        function addToCart() {
+            // Add your logic to add the product to the shopping cart
+            alert("Product added to the cart!");
+        }
+    </script>
+</body>
+</html>

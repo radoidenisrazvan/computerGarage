@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPUTER GARAGE | Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="Home.html">
+                    <img src="img/output-onlinepngtools.png" width="200px">
+                </a>
+                
+    
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="Home.html">Acasa</a></li>
+                    <li><a href="Products.html">Produse</a></li>
+                    <li><a href="AboutUs.html">Despre noi</a></li>
+                    <li><a href="ContactUs.html">Contacteaza-ne</a></li>
+                    <li><a href="contulMeu.html">Contul meu</a></li>
+                    <button id="btnLogin" class="btnLogin-popup">Login</button>
+
+    
+                </ul>
+            </nav>
+            <img src="RedStore_Img/images/cart.png" width="30px" height="30px" >
+            <img src="RedStore_Img/images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+
+        <!------login box -------->
+
+        <div class="wrapper">
+            <span class="icon-close"><ion-icon name="close-outline"></ion-icon></span>
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Remember me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="btn-login">Login</button>
+                    <div class="login-register">
+                        <p>Don't have an account?<a href="#" class="register-link"> Register now!</a></p>
+                    </div>
+                </form>
+            </div>
+            <div class="form-box register">
+                <h2>Register</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                        <input type="text" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">I agree to the terms & conditions</label>
+                    </div>
+                    <button type="submit" class="btn-login">Register</button>
+                    <div class="login-register">
+                        <p>Already have an account?<a href="#" class="login-link"><bd> Login menu!</bd></a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        
+
+
+        <div class="row">
+            <div class="col-2">
+                <h1>Explorează Computer Garage - COMPUTECH!</h1>
+                <p>Descoperă o gamă variată de componente de înaltă calitate.<br>Avem tot ce îți trebuie pentru a-ți construi sau îmbunătăți sistemul la standarde moderne.</p>
+                <a href="Products.html" class="btn">Explorează acum &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="img/PngItem_3922490.png">
+            </div>     
+        </div>
+    </div>
+</div>
+
+<!--------- featured categories  ----------->
+
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="img/feature-2023-gaming-monitors.jpg" >
+                </div>
+                <div class="col-3">
+                    <img src="img/best-am5-motherboard.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="img/istockphoto-1387406301-612x612.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--------- featured products  ----------->
+    <div class="small-container">
+        <h2 class="title">Produse recomandate</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="Produse/SistemeGaming/sistem2.html">
+                    <img src="img/computerGaming.jpg">
+                    <h4>PC Gaming DRAGON Epic Max  </h4>
+                    <p>6.719,99 RON</p>
+                </a>
+                </div>
+            <div class="col-4">
+                <a href="Produse/monitoare/monitor1.html">
+                    <img src="img/monitor.jpg">
+                <h4>Monitor LED Samsung Gaming Odyssey G3 </h4>
+                <p>789,99 RON</p>
+                </a>
+                
+                </div>
+            <div class="col-4">
+                <a href="Produse/scaune/scaun3.html">
+                    <img src="img/scaun.jpg">
+                    <h4>Scaun gaming Arrozi Torretta Soft Fabric - Ash </h4>
+                    <p>1.059,69 RON</p>
+                </a>
+                </div>
+            <div class="col-4">
+                <a href="Produse/periferice/periferice1.html">
+                    <img src="img/kitGaming.jpg">
+                    <h4>Kit Gaming Redragon Kumara + Centrophorus + Garuda + Archelon M </h4>
+                    <p>251,21 RON</p>
+                </a>
+                </div>    
+            </div>
+        <h2 class="title">Ultimele Produse</h2>
+            <div class="row">
+                <div class="col-4">
+                    <a href="Produse/console/consola3.html">
+                        <img src="img/ps5.png">
+                        <h4>Consola Sony PlayStation 5 (PS5) 825GB, C-Chassis + Joc God of War Ragnarok  </h4>
+                        <p>2.419,99 RON</p>
+                    </a>
+                    </div>
+                <div class="col-4">
+                    <a href="Produse/SistemeGaming/laptop.html">
+                        <img src="img/laptopgaming.jpg">
+                        <h4>Laptop ASUS Gaming 15.6'' TUF F15 FX507ZC4 </h4>
+                        <p>3.599,99 RON</p>
+                    </a>
+                    </div>
+                <div class="col-4">
+                    <a href="Produse/componente/componenta1.html">
+                        <img src="img/i7.jpg">
+                        <h4> Procesor Intel Raptor Lake Refresh, Core i7 14700K 3.4GHz box</h4>
+                        <p>1.999,99 RON</p>
+                    </a>
+                    </div>
+                <div class="col-4">
+                    <a href="Produse/componente/componenta3.html">
+                        <img src="img/4070.jpg">
+                        <h4>Placa video GIGABYTE GeForce RTX 4070 WINDFORCE OC 12GB GDDR6X 192-bit DLSS 3.0 </h4>
+                        <p>2.551,21 RON</p>
+                    </a>
+                    </div>   
+                <div class="col-4">
+                    <a href="Produse/componente/componenta7.html">
+                        <img src="img/gigabit-rt-ax82u-dual-band-00a69a5d2a45d6a54fe4cfaea3c0990a.jpg">
+                        <h4>Router wireless ASUS Gigabit RT-AX82U Dual-Band WiFi 6 </h4>
+                        <p>421,21 RON</p>
+                    </a>
+                    </div> 
+                <div class="col-4">
+                    <a href="Produse/componente/componenta4.html">
+                        <img src="img/rami.jpg">
+                        <h4>Memorie Corsair Vengeance RGB 32GB DDR5 6000MHz CL36 Dual Channel Kit </h4>
+                        <p>540,27 RON</p>
+                    </a>
+                    </div>    
+                <div class="col-4">
+                    <a href="Produse/SistemeGaming/sistem6.html">
+                        <img src="img/pcgaming2.jpg">
+                        <h4>PC Gaming ZMEU Legendar Alb Pro </h4>
+                        <p>2.781,59 RON</p>
+                    </a>
+                    </div>  
+                <div class="col-4">
+                    <a href="Produse/componente/componenta5.html">
+                        <img src="img/carcasa.jpg">
+                        <h4>Carcasa AQIRYS Antares ARGB </h4>
+                        <p>209,99 RON</p>
+                    </a>
+                    </div>                          
+                </div>
+        </div>
+
+<!--------------- parteneri ------------->
+        <div class="partner">
+            <h2 class="title">Parteneri oficiali</h2>
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="img/intel.png" >
+                    </div>
+                    <div class="col-5">
+                        <img src="img/amd.png" >
+                    </div>
+                    <div class="col-5">
+                        <img src="img/lenovo.png" >
+                    </div>
+                    <div class="col-5">
+                        <img src="img/nvidia.jpg" >
+                    </div>
+                    <div class="col-5">
+                        <img src="img/logitech.png" >
+                    </div>
+                    <div class="col-5">
+                        <img src="img/Samsung_Logo.svg.png" >
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+<!---------js---------->
+ <script src="main.js"></script>
+
+
+
+</body>
+</html>

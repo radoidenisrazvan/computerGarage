@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page | Scaun gaming Marvo CH-303 Textil</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="../../Home.html">
+                        <img src="../../img/output-onlinepngtools.png" width="200px">
+                    </a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="../../Home.html">Acasa</a></li>
+                        <li><a href="../../Products.html">Produse</a></li>
+                        <li><a href="">Despre noi</a></li>
+                        <li><a href="">Contacteaza-ne</a></li>
+                        <li><a href="">Contul meu</a></li>
+                    </ul>
+                </nav>
+                <img src="../../RedStore_Img/images/cart.png" width="30px" height="30px" >
+                <img src="../../RedStore_Img/images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-2">
+            <h1 class="title">Scaun gaming Marvo CH-303 Textil</h1>
+       
+        <div class="small-container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="../../scaunegaming/1.jpg">
+                </div>
+                <div class="col-6">
+                    <h2>Pret: 344,75 RON</h2>
+                    <label for="quantity">Cantitate:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1">
+                    <button onclick="addToCart()">Adauga in cos</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h3>Prezentare produs:</h3>
+                    <p>• scaun ergonomic pentru gaming</p>
+                    <p>• mulaj din spuma de calitate inalta</p>
+                    <p>• tapiserie din piele sintetica cu finisaj de calitate</p>
+                    <p>• posibilitate de reglare a inaltimii</p>
+                    <p>• rotire 360 grade si inclinare</p>
+                    <p>• cotiere fixe prevazute cu pernite</p>
+                    <p>• cadru si baza robuste</p>
+                    <p>• 5 brate prevazute cu roti durabile</p>
+                    <p>-----------------------------------------------------------------------------------------------------------</p>
+                    <h2 class="title">Specificatii tehnice:</h2>
+                    <p>Denumire: Scaun gaming Marvo CH-303 Textil</p>
+                    <p>Cod producator: MARVO_CH303RD</p>
+                    <p>Garantie : 24 luni</p>
+                    <p>-----------------------------------------------------------------------------------------------------------</p>
+                    <h3>Detalii:</h3>
+                    <p>Serie: CH-303</p>
+                    <p>Material: Textil</p>
+                    <p>-----------------------------------------------------------------------------------------------------------</p>
+                    <h3>Caracteristici:</h3>
+                    <p>Greutate admisa: 150 kg max</p>
+                    <p>Inaltime scaun reglabil: 47 - 57.5 cm</p>
+                    <p>Inaltime scaun max: 119 cm</p>
+                    <p>Latime scaun: 51 cm</p>
+                    <p>Adancime scaun: 47 cm</p>
+                    <p>Inaltime spatar: 68.5 cm</p>
+                    <p>Culoare: Negru / Rosu</p>
+                    <p>-----------------------------------------------------------------------------------------------------------</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="partner">
+        <h2 class="title">Parteneri oficiali</h2>
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="../../img/intel.png" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/amd.png" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/lenovo.png" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/nvidia.jpg" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/logitech.png" >
+                </div>
+                <div class="col-5">
+                    <img src="../../img/Samsung_Logo.svg.png" >
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../../main.js"></script>
+
+    <script>
+        function addToCart() {
+            // Add your logic to add the product to the shopping cart
+            alert("Product added to the cart!");
+        }
+    </script>
+</body>
+</html>
