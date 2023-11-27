@@ -1,0 +1,241 @@
+<mxfile host="app.diagrams.net" modified="2023-11-27T20:06:31.956Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="MODvWe6q86_1nfhPDvee" version="22.1.4" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="4079" dy="2739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--0" target="OYOgU98Pn-XuJwLqsMUc-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--0" target="OYOgU98Pn-XuJwLqsMUc-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-510" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="Computer Garage" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=20;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="190" y="110" width="190" height="80" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--1" value="Pagina -&gt; Acasa" style="text;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--4" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="52" width="190" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--6" target="OYOgU98Pn-XuJwLqsMUc-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="Pagina -&gt; Produse" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=20;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="20" y="360" width="280" height="274" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--9" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+          <mxGeometry y="26" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-59" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;-contine categorii diferite de&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;produse&lt;/span&gt;&lt;br&gt;&lt;br&gt;apasand categoria te va&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;duce catre lista de produse&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;selectata&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;-atunci cand pui cursor-ul&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;pe orice categorie de produs&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;acesta se va colora in&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;culoarea lui&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
+          <mxGeometry y="34" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--13" value="Butonul &#xa;&#xa;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=20;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="330" y="361" width="180" height="269" as="geometry">
+            <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--15" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
+          <mxGeometry y="26" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--17" value="Login/Register Label" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=20;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="510" y="120" width="320" height="300" as="geometry">
+            <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--23" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
+          <mxGeometry y="26" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-58" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Dupa ce s-a apasat butonul&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;login in mijloc-ul site-ului&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;apare formularul unde&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;utilizatorul se poate&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;inregistra / loga in site.&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Acesta te va redirectiona&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;catre pagina principala&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;a site-ului in momentul in&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;care te-ai logat / inregistrat.&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--17">
+          <mxGeometry y="46" width="320" height="254" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--26" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--0" target="zkfFHV4jXpPFQw0GAbJ--17" edge="1">
+          <mxGeometry x="0.5" y="41" relative="1" as="geometry">
+            <mxPoint x="380" y="192" as="sourcePoint" />
+            <mxPoint x="540" y="192" as="targetPoint" />
+            <mxPoint x="-40" y="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--27" value="" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" parent="zkfFHV4jXpPFQw0GAbJ--26" connectable="0" vertex="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--28" value="1" style="resizable=0;align=right;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" parent="zkfFHV4jXpPFQw0GAbJ--26" connectable="0" vertex="1">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-7" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--29" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Login&lt;/font&gt;" style="text;html=1;resizable=0;points=[];;align=center;verticalAlign=middle;labelBackgroundColor=none;rounded=0;shadow=0;strokeWidth=1;fontSize=12;" parent="zkfFHV4jXpPFQw0GAbJ--26" vertex="1" connectable="0">
+          <mxGeometry x="0.5" y="49" relative="1" as="geometry">
+            <mxPoint x="-38" y="34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-2" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.913;entryY=-0.057;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="zkfFHV4jXpPFQw0GAbJ--0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="110" as="sourcePoint" />
+            <mxPoint x="420" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="140" />
+              <mxPoint x="510" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.613;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--0" target="zkfFHV4jXpPFQw0GAbJ--13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.6;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="zkfFHV4jXpPFQw0GAbJ--6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="190" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.994;entryY=0.109;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--13" target="zkfFHV4jXpPFQw0GAbJ--6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="300" y="430" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-12" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Produse recomandate&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-320" y="370" width="280" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-13" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Contine produse recomandate de site&lt;br&gt;-apasand pe orice produs te va duce catre produsul selectat&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="OYOgU98Pn-XuJwLqsMUc-12">
+          <mxGeometry x="20" y="40" width="260" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-16" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Ultimele produse&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-670" y="640" width="260" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-19" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Contine produsele reduse de pe site&amp;nbsp;&lt;br&gt;-apasand pe orice produs te va duce pe pagina acestuia&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="OYOgU98Pn-XuJwLqsMUc-16">
+          <mxGeometry x="35" y="30" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-22" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Pagina -&amp;gt; Lista de produse selectate din categorie..&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="680" width="360" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-23" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Contine o lista de produse la categoria selectata.&lt;br&gt;-animatii atunci cand pui cursor-ul pe fiecare produs&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="OYOgU98Pn-XuJwLqsMUc-22">
+          <mxGeometry x="60" y="50" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-27" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="1110" width="440" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OYOgU98Pn-XuJwLqsMUc-23" target="OYOgU98Pn-XuJwLqsMUc-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-29" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Pagina -&amp;gt; Produs&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="1120" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-30" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;-numele produsului&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OYOgU98Pn-XuJwLqsMUc-29">
+          <mxGeometry y="30" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-31" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;-pretul produsului&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OYOgU98Pn-XuJwLqsMUc-29">
+          <mxGeometry y="60" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-32" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;-descrierea produsului&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OYOgU98Pn-XuJwLqsMUc-29">
+          <mxGeometry y="90" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-33" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;contine de asemenea si optiunea de a adauga in cos produsul, dupa cantitatea dorita&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rotation=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="1250" width="320" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="OYOgU98Pn-XuJwLqsMUc-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-410" y="800" as="sourcePoint" />
+            <mxPoint x="310" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.069;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OYOgU98Pn-XuJwLqsMUc-12" target="OYOgU98Pn-XuJwLqsMUc-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-110" y="580" as="sourcePoint" />
+            <mxPoint x="310" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--0" target="OYOgU98Pn-XuJwLqsMUc-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="190" as="sourcePoint" />
+            <mxPoint x="640" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-41" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Pagina - Despre noi&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="490" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-45" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;O pagina ce contine detalii despre site-ul Computer Garage, cu ce se ocupa si ce contine.&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="OYOgU98Pn-XuJwLqsMUc-41">
+          <mxGeometry x="20" y="50" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-50" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.626;exitY=-0.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="120" as="sourcePoint" />
+            <mxPoint x="1260" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="120" />
+              <mxPoint x="560" y="-370" />
+              <mxPoint x="930" y="-460" />
+              <mxPoint x="1000" y="-410" />
+              <mxPoint x="1120" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-51" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.566;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="OYOgU98Pn-XuJwLqsMUc-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="110" as="sourcePoint" />
+            <mxPoint x="1000" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="-90" />
+              <mxPoint x="750" y="-30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-52" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Pagina -&amp;gt; Contateaza-ne&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="827" y="460" width="320" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-54" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Contine un formular care ne va trimite mesaj intr-un txt cu problema/informatia&lt;br&gt;utilizatorului&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="OYOgU98Pn-XuJwLqsMUc-52">
+          <mxGeometry x="40" y="60" width="250" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-55" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Pagina -&amp;gt; Contul meu&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1140" y="730" width="350" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-56" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Te va redirectiona catre o pagina unde iti poti modifica setarile/detaliile contului&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="OYOgU98Pn-XuJwLqsMUc-55">
+          <mxGeometry x="60" y="40" width="260" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-60" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;EXPLOREAZA ACUM&lt;br&gt;&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;te redirectioneaza catre&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;pagina de produse&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="400" width="160" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-65" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Register&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="150" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-71" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="400" as="sourcePoint" />
+            <mxPoint x="50" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-74" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--0" target="OYOgU98Pn-XuJwLqsMUc-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-70" y="-180" as="sourcePoint" />
+            <mxPoint x="-40" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-75" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Parteneri oficiali&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-370" y="-270" width="290" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOgU98Pn-XuJwLqsMUc-76" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Se regasesc pe toate paginile la finalul acestora&amp;nbsp;&lt;br&gt;(adica jos)&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-350" y="-230" width="240" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
